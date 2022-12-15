@@ -1,12 +1,18 @@
 package com.company;
 
+import javax.xml.bind.annotation.*;
 import java.io.Serializable;
 import java.util.LinkedList;
 import java.util.List;
 
+@XmlRootElement(name = "person")
+@XmlAccessorType(XmlAccessType.FIELD)
 public class Person implements Serializable {
     private int id;
     private String name;
+
+    @XmlElementWrapper(name = "emails")
+    @XmlElement(name = "email")
     private List<String> emails = new LinkedList<>();
 
     public Person(){}

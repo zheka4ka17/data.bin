@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="org.glassfish.jaxb:jaxb-jxc:2.2.11" type="repository">
+    <properties maven-id="org.glassfish.jaxb:jaxb-jxc:2.2.11" />
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/glassfish/jaxb/jaxb-jxc/2.2.11/jaxb-jxc-2.2.11.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
