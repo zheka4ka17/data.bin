@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<persons>
+    <Fullname>
+        <id>1</id>
+        <name>Alex</name>
+        <emails>
+            <email> alex@gmail.com </email>
+            <email> alex@rambler.ru </email>
+        </emails>
+    </Fullname>
+    <Fullname>
+        <id>2</id>
+        <name>Alex2</name>
+        <emails>
+            <email> alex@gmail.com </email>
+            <email> alex@rambler.ru </email>
+        </emails>
+    </Fullname>
+</persons>
